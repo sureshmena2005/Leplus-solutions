@@ -1,13 +1,13 @@
-/* ======= General Styles ======= */
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding-top: 70px; /* Prevent content from hiding under header */
+    padding-top: 70px;
     background-color: #f8f9fa;
     text-align: center;
 }
 
-/* ======= Header (Fixed & Smaller) ======= */
+/* Header */
 header {
     display: flex;
     justify-content: space-between;
@@ -23,14 +23,13 @@ header {
     height: 50px;
 }
 
-/* ======= Logo & Title ======= */
 .logo-container {
     display: flex;
     align-items: center;
 }
 
 .logo {
-    width: 40px; /* Reduce logo size */
+    width: 40px;
     height: auto;
     margin-right: 8px;
 }
@@ -52,7 +51,7 @@ nav ul li a {
     font-size: 14px;
 }
 
-/* ======= Hero Section (Full-Screen) ======= */
+/* Hero Section */
 #hero {
     background: url('hero-bg.jpg') no-repeat center center/cover;
     color: white;
@@ -72,25 +71,14 @@ nav ul li a {
     font-size: 36px;
 }
 
-/* ======= Buttons ======= */
-.btn {
-    display: inline-block;
-    padding: 12px 20px;
-    background: #ff6600;
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 5px;
-}
-
-/* ======= Sections (Spacing & Layout) ======= */
+/* Sections */
 section {
     padding: 60px 20px;
     max-width: 1200px;
     margin: auto;
 }
 
-/* ======= Services Section ======= */
+/* Services */
 #services {
     background: white;
 }
@@ -115,7 +103,7 @@ section {
     transform: scale(1.05);
 }
 
-/* ======= Contact Section ======= */
+/* Contact */
 #contact {
     background: #f9f9f9;
 }
@@ -149,7 +137,7 @@ button:hover {
     background: #005bb5;
 }
 
-/* ======= Footer ======= */
+/* Footer */
 footer {
     background: #0073e6;
     color: white;
@@ -157,7 +145,7 @@ footer {
     margin-top: 20px;
 }
 
-/* ======= Responsive Design (Mobile-Friendly) ======= */
+/* Responsive Design */
 @media (max-width: 768px) {
     header {
         flex-direction: column;
