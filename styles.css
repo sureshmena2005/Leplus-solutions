@@ -1,39 +1,70 @@
+/* General Styling */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
     text-align: center;
 }
 
+/* Header Styling */
 header {
     background-color: #0073e6;
     color: white;
     padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
 }
 
+/* Navigation Menu */
 nav ul {
     list-style: none;
     padding: 0;
+    margin: 0;
     background: #004080;
-    overflow: hidden;
+    display: flex;
+    justify-content: center;
 }
 
 nav ul li {
-    display: inline;
     padding: 15px;
 }
 
 nav ul li a {
     color: white;
     text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
 }
 
+nav ul li a:hover {
+    background: #0055cc;
+    border-radius: 5px;
+}
+
+/* Section Styling */
 section {
-    padding: 20px;
+    padding: 40px 20px;
+    margin: 20px;
+    background: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
 }
 
-footer {
-    background-color: #0073e6;
+/* Services List */
+#services ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#services ul li {
+    background: #0073e6;
     color: white;
     padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    font-weight: bold;
 }
+
+/* Contact Form
