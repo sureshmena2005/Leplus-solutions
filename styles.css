@@ -1,70 +1,55 @@
-/* General Styling */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+/* Contact Section Styling */
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     text-align: center;
 }
 
-/* Header Styling */
-header {
-    background-color: #0073e6;
-    color: white;
-    padding: 20px;
-    font-size: 24px;
-    font-weight: bold;
-}
-
-/* Navigation Menu */
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    background: #004080;
-    display: flex;
-    justify-content: center;
-}
-
-nav ul li {
-    padding: 15px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    padding: 10px 20px;
-}
-
-nav ul li a:hover {
-    background: #0055cc;
-    border-radius: 5px;
-}
-
-/* Section Styling */
-section {
-    padding: 40px 20px;
-    margin: 20px;
+/* Contact Form Box */
+.contact-box {
     background: white;
+    padding: 30px;
+    width: 90%;
+    max-width: 500px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
 }
 
-/* Services List */
-#services ul {
-    list-style-type: none;
-    padding: 0;
+/* Contact Form Styling */
+#contact form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
 
-#services ul li {
+#contact label {
+    text-align: left;
+    font-weight: bold;
+    margin: 10px 0 5px;
+}
+
+#contact input, #contact textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#contact button {
+    margin-top: 10px;
+    padding: 12px;
     background: #0073e6;
     color: white;
-    padding: 10px;
-    margin: 5px;
-    border-radius: 5px;
+    border: none;
+    font-size: 18px;
     font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
 }
 
-/* Contact Form
+#contact button:hover {
+    background: #0055cc;
+}
