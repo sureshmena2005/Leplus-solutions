@@ -5,90 +5,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leplus Solutions Pvt Ltd</title>
     <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
-    <header>
-        <img src="logo.png" alt="Leplus Solutions Logo" class="logo">
-        <h1>Leplus Solutions Private Limited</h1>
-        <p>Expert Networking and Security Solutions</p>
-    </header>
-    
-    <nav>
-        <ul>
-            <li><a href="#about">About Us</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
 
-    <section id="about">
-        <h2>About Us</h2>
-        <p>We are a woman-led enterprise in Madurai, specializing in WiFi, intranet, RF tower installation and maintenance, OFC installation, and firewall solutions.</p>
+    <!-- Header Section -->
+    <header>
+        <div class="logo-container">
+            <img src="logo.png" alt="Leplus Solutions Logo" class="logo">
+            <h1>Leplus Solutions</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <h2>Expert Networking & IT Solutions</h2>
+        <p>Your trusted partner for WiFi, intranet, RF tower installations, OFC, and firewall security.</p>
+        <a href="#contact" class="btn">Get in Touch</a>
     </section>
 
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Leplus Solutions Private Limited is a woman-led enterprise in Madurai, specializing in IT infrastructure solutions.</p>
+    </section>
+
+    <!-- Services Section -->
     <section id="services">
         <h2>Our Services</h2>
         <div class="services-container">
             <div class="service-card">
-                <h3>WiFi Network Setup</h3>
-                <p>Professional installation and maintenance of high-speed WiFi networks for businesses and homes.</p>
+                <h3>WiFi Setup</h3>
+                <p>Professional installation and maintenance of high-speed networks.</p>
             </div>
-
             <div class="service-card">
                 <h3>Intranet Solutions</h3>
-                <p>Secure and reliable intranet setup for organizations to enhance internal communication.</p>
+                <p>Secure intranet setup for businesses.</p>
             </div>
-
             <div class="service-card">
                 <h3>RF Tower Installation</h3>
-                <p>Expert installation and maintenance of RF towers for seamless communication infrastructure.</p>
+                <p>Reliable RF tower installation & maintenance.</p>
             </div>
-
             <div class="service-card">
-                <h3>OFC & Firewall Solutions</h3>
-                <p>Optical Fiber Cable installation and firewall security solutions for data protection.</p>
+                <h3>Firewall Security</h3>
+                <p>Enterprise-grade firewall protection.</p>
             </div>
         </div>
     </section>
 
+    <!-- Contact Section -->
     <section id="contact">
         <h2>Contact Us</h2>
-        <p>We’d love to hear from you! Fill out the form below, and we’ll get back to you as soon as possible.</p>
-        <div class="contact-container">
-            <div class="contact-info">
-                <h3>Our Address</h3>
-                <p>Madurai, Tamil Nadu, India</p>
-
-                <h3>Email</h3>
-                <p>contact@leplussolutions.com</p>
-
-                <h3>Phone</h3>
-                <p>+91 98765 43210</p>
-            </div>
-            
-            <div class="contact-form-box">
-                <form id="contact-form">
-                    <div class="contact-form-container">
-                        <label for="name">Name:</label>
-                        <input type="text" id="name" placeholder="Enter your name" required>
-
-                        <label for="email">Email:</label>
-                        <input type="email" id="email" placeholder="Enter your email" required>
-
-                        <label for="message">Message:</label>
-                        <textarea id="message" placeholder="Write your message" required></textarea>
-
-                        <button type="submit">Send Message</button>
-                    </div>
-                </form>
-            </div>
-        </div>
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
     </section>
 
+    <!-- Footer -->
     <footer>
         <p>&copy; 2025 Leplus Solutions Pvt Ltd | All Rights Reserved</p>
     </footer>
 
-    <script src="script.js"></script>
 </body>
 </html>
