@@ -8,6 +8,7 @@
 </head>
 <body>
     <header>
+        <img src="logo.png" alt="Leplus Solutions Logo" class="logo">
         <h1>Leplus Solutions Private Limited</h1>
         <p>Expert Networking and Security Solutions</p>
     </header>
@@ -38,18 +39,22 @@
 
     <section id="contact">
         <h2>Contact Us</h2>
-        <form id="contact-form">
-            <label for="name">Name:</label>
-            <input type="text" id="name" required>
-            
-            <label for="email">Email:</label>
-            <input type="email" id="email" required>
+        <div class="contact-box">
+            <form id="contact-form">
+                <div class="contact-form-container">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" placeholder="Enter your name" required>
 
-            <label for="message">Message:</label>
-            <textarea id="message" required></textarea>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="Enter your email" required>
 
-            <button type="submit">Send Message</button>
-        </form>
+                    <label for="message">Message:</label>
+                    <textarea id="message" placeholder="Write your message" required></textarea>
+
+                    <button type="submit">Send Message</button>
+                </div>
+            </form>
+        </div>
     </section>
 
     <footer>
