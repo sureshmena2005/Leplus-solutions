@@ -1,18 +1,18 @@
-/* General Styles */
+/* ======= General Styles ======= */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding-top: 80px; /* Prevent content from hiding under header */
+    padding-top: 70px; /* Prevent content from hiding under header */
     background-color: #f8f9fa;
     text-align: center;
 }
 
-/* Header */
+/* ======= Header (Fixed & Smaller) ======= */
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 20px;
+    padding: 10px 20px;
     background: #0073e6;
     color: white;
     position: fixed;
@@ -20,19 +20,19 @@ header {
     top: 0;
     left: 0;
     z-index: 1000;
-    height: 60px;
+    height: 50px;
 }
 
-/* Logo & Title */
+/* ======= Logo & Title ======= */
 .logo-container {
     display: flex;
     align-items: center;
 }
 
 .logo {
-    width: 50px; /* Adjust size */
+    width: 40px; /* Reduce logo size */
     height: auto;
-    margin-right: 10px;
+    margin-right: 8px;
 }
 
 nav ul {
@@ -43,16 +43,16 @@ nav ul {
 }
 
 nav ul li {
-    margin: 0 15px;
+    margin: 0 10px;
 }
 
 nav ul li a {
     color: white;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 14px;
 }
 
-/* Hero Section */
+/* ======= Hero Section (Full-Screen) ======= */
 #hero {
     background: url('hero-bg.jpg') no-repeat center center/cover;
     color: white;
@@ -69,10 +69,10 @@ nav ul li a {
 }
 
 #hero h2 {
-    font-size: 40px;
+    font-size: 36px;
 }
 
-/* Button */
+/* ======= Buttons ======= */
 .btn {
     display: inline-block;
     padding: 12px 20px;
@@ -83,14 +83,14 @@ nav ul li a {
     border-radius: 5px;
 }
 
-/* Sections */
+/* ======= Sections (Spacing & Layout) ======= */
 section {
     padding: 60px 20px;
     max-width: 1200px;
     margin: auto;
 }
 
-/* Services */
+/* ======= Services Section ======= */
 #services {
     background: white;
 }
@@ -99,6 +99,8 @@ section {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
+    max-width: 900px;
+    margin: auto;
 }
 
 .service-card {
@@ -113,7 +115,7 @@ section {
     transform: scale(1.05);
 }
 
-/* Contact */
+/* ======= Contact Section ======= */
 #contact {
     background: #f9f9f9;
 }
@@ -147,7 +149,15 @@ button:hover {
     background: #005bb5;
 }
 
-/* Responsive Design */
+/* ======= Footer ======= */
+footer {
+    background: #0073e6;
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+/* ======= Responsive Design (Mobile-Friendly) ======= */
 @media (max-width: 768px) {
     header {
         flex-direction: column;
@@ -155,7 +165,7 @@ button:hover {
         text-align: center;
         padding: 10px 0;
     }
-    
+
     nav ul {
         flex-direction: column;
         padding: 0;
